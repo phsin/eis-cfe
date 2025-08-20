@@ -3,28 +3,23 @@
     "v8version": "8.3.25.1374", 
     "stages": {
         "initSteps": true,
-	"sonarqube": false,
+	    "sonarqube": false,
         "edtValidate": false,
-        "syntaxCheck": true,
-        "buildCfe": true,
-        "buildExtensions": true,
-        "loadConfigFromStorage": false,
-        "loadRepo": false,
-        "loadExtensions": false,
+        "syntaxCheck": false,
         "bdd": false
     },
     "initInfobase": {
     	"vrunnerSettings": "tools/vrunner.json",
 	    "runMigration": false,
-	    "useTemplate": false,
-	    "skipRepository": true,
+        "skipRepository": true,
         "skipLoadRepo": true,
         "onlyFromFiles": true,
         "buildExtensions": false,
         "extensionsPath": "src/cfe",
         "useRepository": false,
         "skipLoadCfg": true,
-        "skipCredentials": true
+        "skipCredentials": true,
+        "templateDBPath":   "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD"
     },
     "buildCfe": {
         "vrunnerSettings": "tools/vrunner.json",
