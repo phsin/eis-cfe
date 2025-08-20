@@ -7,8 +7,10 @@
         "edtValidate": false,
         "syntaxCheck": true,
         "buildCfe": true,
+        "buildExtensions": true,
         "loadConfigFromStorage": false,
         "loadRepo": false,
+        "loadExtensions": false,
         "bdd": false
     },
     "initInfobase": {
@@ -18,10 +20,11 @@
 	    "skipRepository": true,
         "skipLoadRepo": true,
         "onlyFromFiles": true,
-        "buildExtensions": true,
+        "buildExtensions": false,
         "extensionsPath": "src/cfe",
         "useRepository": false,
-        "skipLoadCfg": true
+        "skipLoadCfg": true,
+        "skipCredentials": true
     },
     "buildCfe": {
         "vrunnerSettings": "tools/vrunner.json",
@@ -30,5 +33,11 @@
         "outputPath": "build/extensions"
     },
     "secrets": {
+    },
+    "buildExtensions": {
+        "vrunnerSettings": "tools/vrunner.json",
+        "extensionName": "кб99_ЕИС",
+        "extensionPath": "src/cfe",
+        "outputPath": "build/extensions"
     }
 }
