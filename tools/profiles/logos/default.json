@@ -1,0 +1,147 @@
+{
+    "name": "1C:Enterprise configuration analysis",
+    "description": "Профиль анализа конфигурации 1С:Предприятие для проекта ЕИС",
+    "diagnostics": [
+        {
+            "id": "CommonModuleAssign",
+            "enabled": true,
+            "level": "ERROR"
+        },
+        {
+            "id": "FormDataPath",
+            "enabled": true,
+            "level": "ERROR"
+        },
+        {
+            "id": "CachedPublic",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "DeprecatedFind",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "DeprecatedTypeName",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "DeprecatedManagedForm",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "FunctionReturnsSameName",
+            "enabled": true,
+            "level": "INFO"
+        },
+        {
+            "id": "EmptyCodeBlock",
+            "enabled": true,
+            "level": "INFO"
+        },
+        {
+            "id": "UsingServiceTag",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "UsingHardcodeNetworkAddress",
+            "enabled": true,
+            "level": "ERROR"
+        },
+        {
+            "id": "UsingHardcodePath",
+            "enabled": true,
+            "level": "ERROR"
+        },
+        {
+            "id": "NumberOfOptionalParams",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "maxOptionalParamsCount": 5
+            }
+        },
+        {
+            "id": "NumberOfParams",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "maxParamsCount": 7
+            }
+        },
+        {
+            "id": "TooManyReturns",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "maxReturnsCount": 3
+            }
+        },
+        {
+            "id": "CognitiveComplexity",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "complexityThreshold": 15
+            }
+        },
+        {
+            "id": "CyclomaticComplexity",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "complexityThreshold": 10
+            }
+        },
+        {
+            "id": "MethodSize",
+            "enabled": true,
+            "level": "WARNING",
+            "parameters": {
+                "maxMethodSize": 200
+            }
+        },
+        {
+            "id": "ModuleStructure",
+            "enabled": true,
+            "level": "INFO"
+        },
+        {
+            "id": "OneStatementPerLine",
+            "enabled": true,
+            "level": "INFO"
+        },
+        {
+            "id": "LineLengthRestriction",
+            "enabled": true,
+            "level": "INFO",
+            "parameters": {
+                "maxLineLength": 120
+            }
+        },
+        {
+            "id": "UseLessForEach",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "UsingFindElementByString",
+            "enabled": true,
+            "level": "WARNING"
+        },
+        {
+            "id": "UnusedParameters",
+            "enabled": true,
+            "level": "INFO"
+        },
+        {
+            "id": "UnusedLocalVariable",
+            "enabled": true,
+            "level": "INFO"
+        }
+    ]
+}

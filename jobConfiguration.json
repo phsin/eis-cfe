@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/firstBitMarksistskaya/jenkins-lib/master/resources/schema.json",
     "v8version": "8.3.25.1374", 
+    "logosConfig": "tools/logos.json",
     "stages": {
         "initSteps": true,
 	    "sonarqube": false,
@@ -26,7 +27,7 @@
                 "path": "src/cfe",
                 "stages": ["initInfoBase", "bdd"]
             }
-        ],
+        ]
     },
     "buildCfe": {
         "vrunnerSettings": "tools/vrunner.json",
