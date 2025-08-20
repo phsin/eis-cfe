@@ -19,7 +19,14 @@
         "useRepository": false,
         "skipLoadCfg": true,
         "skipCredentials": true,
-        "templateDBPath":   "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD"
+        "templateDBPath":   "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD",
+        "extensions": [
+            {
+                "name": "кб99_ЕИС",
+                "path": "src/cfe",
+                "stages": ["initInfoBase", "bdd"]
+            }
+        ],
     },
     "buildCfe": {
         "vrunnerSettings": "tools/vrunner.json",
