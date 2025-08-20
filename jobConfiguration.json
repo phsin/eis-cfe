@@ -6,6 +6,7 @@
 	"sonarqube": false,
         "edtValidate": false,
         "syntaxCheck": true,
+        "buildCfe": true,
         "bdd": false
     },
     "initInfobase": {
@@ -17,6 +18,12 @@
         "onlyFromFiles": false,
         "buildExtensions": true,
         "extensionsPath": "src/cfe",
-        "useRepository": false
+        "useRepository": false 
+    },
+    "buildCfe": {
+        "vrunnerSettings": "tools/vrunner.json",
+        "extensionName": "кб99_ЕИС",
+        "extensionPath": "src/cfe",
+        "outputPath": "build/extensions"
     }
 }

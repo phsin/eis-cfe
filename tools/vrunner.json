@@ -22,7 +22,13 @@
         "--template": "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD"
     },
     "compileext": {
-        "--extension-name": "кб99_ЕИС"
+        "--extension-name": "кб99_ЕИС",
+        "--extension-path": "./src/cfe"
+    },
+    "buildcfe": {
+        "--extension-name": "кб99_ЕИС",
+        "--extension-path": "./src/cfe",
+        "--extension-file": "./build/extensions/кб99_ЕИС.cfe"
     },
     "vanessa": {
         "--vanessasettings": "./tools/JSON/vanessaBddConf.json"
