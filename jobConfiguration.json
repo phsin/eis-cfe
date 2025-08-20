@@ -7,6 +7,7 @@
         "edtValidate": false,
         "syntaxCheck": true,
         "buildCfe": true,
+        "loadCfg": false,
         "bdd": false
     },
     "initInfobase": {
@@ -15,10 +16,11 @@
 	    "useTemplate": false,
 	    "skipRepository": true,
         "skipLoadRepo": true,
-        "onlyFromFiles": false,
+        "onlyFromFiles": true,
         "buildExtensions": true,
         "extensionsPath": "src/cfe",
-        "useRepository": false 
+        "useRepository": false,
+        "skipLoadCfg": true
     },
     "buildCfe": {
         "vrunnerSettings": "tools/vrunner.json",
