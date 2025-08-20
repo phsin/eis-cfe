@@ -8,6 +8,8 @@
         "syntaxCheck": false,
         "bdd": false
     },
+    "secrets": {
+    },    
     "initInfobase": {
     	"vrunnerSettings": "tools/vrunner.json",
 	    "runMigration": false,
