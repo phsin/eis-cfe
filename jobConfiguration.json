@@ -19,27 +19,7 @@
         "useRepository": false,
         "skipLoadCfg": true,
         "skipCredentials": true,
-        "templateDBPath":   "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD",
-        "extensions": [
-            {
-                "name": "кб99_ЕИС",
-                "path": "src/cfe",
-                "stages": ["initInfoBase", "bdd"]
-            }
-        ]
-    },
-    "buildCfe": {
-        "vrunnerSettings": "tools/vrunner.json",
-        "extensionName": "кб99_ЕИС",
-        "extensionPath": "src/cfe",
-        "outputPath": "build/extensions"
-    },
-    "secrets": {
-    },
-    "buildExtensions": {
-        "vrunnerSettings": "tools/vrunner.json",
-        "extensionName": "кб99_ЕИС",
-        "extensionPath": "src/cfe",
-        "outputPath": "build/extensions"
+        "templateDBPath":   "D:\\DevOps\\Demo\\SSR\\1Cv8.1CD"
+
     }
 }
