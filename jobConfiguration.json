@@ -10,8 +10,13 @@
     },
     "initInfobase": {
     	"vrunnerSettings": "tools/vrunner.json",
-	"runMigration": false,
-	"useTemplate": false,
+	    "runMigration": false,
+	    "useTemplate": false,
 	    "skipRepository": true,
+        "skipLoadRepo": true,
+        "onlyFromFiles": false,
+        "buildExtensions": true,
+        "extensionsPath": "src/cfe",
+        "useRepository": false
     }
 }
