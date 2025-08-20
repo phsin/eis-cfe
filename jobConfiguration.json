@@ -12,6 +12,6 @@
     	"vrunnerSettings": "tools/vrunner.json",
 	"runMigration": false,
 	"useTemplate": false,
-	"skipRepository": true
+	    "skipRepository": true,
     }
 }
